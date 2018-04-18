@@ -9,8 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring_eureka</artifactId>
-    <packaging>jar</packaging>
+    <artifactId>spring_consumer</artifactId>
 
 
 </project>
