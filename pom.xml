@@ -13,6 +13,8 @@
         <module>spring_eureka_client</module>
         <module>spring_consumer</module>
         <module>spring_consumer_feign</module>
+        <module>spring_config</module>
+        <module>spring_config_client</module>
     </modules>
 
     <!-- 使用最新的spring-boot版本 -->
@@ -53,6 +55,17 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-feign</artifactId>
+        </dependency>
+
+        <!-- config-server-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-config-server</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
         </dependency>
     </dependencies>
 
