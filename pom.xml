@@ -14,7 +14,7 @@
         <module>spring_consumer</module>
         <module>spring_consumer_feign</module>
         <module>spring_config</module>
-        <module>spring_config_client</module>
+        <module>spring_config_consumer</module>
     </modules>
 
     <!-- 使用最新的spring-boot版本 -->
@@ -66,6 +66,11 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-config</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
     </dependencies>
 

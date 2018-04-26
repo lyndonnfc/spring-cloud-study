@@ -6,5 +6,6 @@ spring:
       server:
         git:
           uri: https://github.com/lyndonnfc/config-repo.git
+
 server:
   port: 1201

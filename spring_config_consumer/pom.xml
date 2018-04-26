@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring_config_client</artifactId>
+    <artifactId>spring_config_consumer</artifactId>
 
 
 </project>
