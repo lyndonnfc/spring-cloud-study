@@ -1,4 +1,4 @@
-package com.lyndon.controller;
+package com.lyndon;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
