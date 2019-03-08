@@ -1,7 +1,7 @@
 package com.lyndon.study.service;
 
 import com.lyndon.study.component.FindServicesHystrix;
-import org.springframework.cloud.netflix.feign.FeignClient;
+import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.List;
