@@ -15,9 +15,12 @@ public interface FindServices {
     @GetMapping("/getUser")
     String findServices();
 
-    @GetMapping("/getUserInfo")
+    @GetMapping("/test/getUserInfo")
     Object getUserInfo();
 
     @GetMapping("/getUserList")
     List getUserList();
+
+
+
 }
