@@ -33,7 +33,7 @@ public class UserTestController {
         testUser1.setUserName("测试1");
         TestUser testUser2 = new TestUser();
         testUser2.setUid(2L);
-        testUser2.setUserName("测试2");
+        testUser2.setUserName("测试dddd2");
         list.add(testUser1);
         list.add(testUser2);
         return "service" + list.get(2);
